@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background: #eeeeee;
+  min-width: 1200px;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main-header-logo {
+  margin-top: 49px;
+  width: 159px;
+  margin-bottom: 18px;
+}
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 30px;
+  list-style: none;
+  width: 760px;
+  margin: 0;
+  padding: 0;
+}
+.site-navigation li {
+  margin-right: 51px;
+  margin-top: 66px;
+  margin-bottom: 0;
+  padding: 18px 0;
+}
+.site-navigation a {
+  color: #000000;
+}
+.header-basket {
+  width: 160px;
+  text-align: right;
+  margin-top: 66px;
+  margin-bottom: 0;
+  padding: 18px 0;
+  position: relative;
+}
+.header-basket::before {
+  content: "";
+  position: absolute;
+  background: url("../img/cart-icon.svg") no-repeat 0 0;
+  width: 17px;
+  height: 15px;
+  left: 50px;
+  top: 22px;
+  opacity: 0.2;
+}
+.k {
+  border: 1px solid #000000;
+}
